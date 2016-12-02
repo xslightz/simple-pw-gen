@@ -218,7 +218,7 @@ class Ui_Dialog(object):
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog", None))
+        Dialog.setWindowTitle(_translate("Dialog", "Password", None))
         self.label.setText(_translate("Dialog", "**********", None))
         self.label_2.setText(_translate("Dialog", "Length", None))
         self.pushButton.setText(_translate("Dialog", "generate", None))
